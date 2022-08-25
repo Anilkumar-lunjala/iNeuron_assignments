@@ -1,0 +1,55 @@
+1. values              :   'hello' , -87.8 , 6
+    expressions  :   * , - , / , +
+
+
+2. Difference between string and variables?
+    string is a stream of (collection of) characters simply string is the data and variable is a name which stores the data in it.
+
+3. List : list is data type which is collection of ordered sequence of elements inside quare brackets[].
+         It is mutable,changeable. 
+    string : string is a data type which is the collection of characters and enclosed in single quotes or double quotes. 
+              It is immutable. 
+    dictionary : dictionary is a data type which is the unordered collection of elements and enclosed in {} braces.
+                      It holds key value pair separated by comma. It is mutable. But it won't allow two same keys.
+4. Expressions made up of in python to do mathematical operations between operators and operands in python. 
+     The expressions in python are: +, -, /, , //, *, %.
+
+5. + :  addition
+     -  :  subtraction
+    *  :  multiplication 
+     /  :  division
+  ** :  power 
+    //  :  floor division 
+    %  :  modulo division
+
+     Difference between expression and a statement?
+     An expression alwways evaluate to a value and it will perform mathematical operations to produce a value. 
+     whereas a statement always does something like creating a variable or displaying a value, it only does whatever the statement says.
+
+
+
+6. bacon = 22
+     bacon +1
+     23
+     after running the code bacon contains the value 23.
+
+7. 'spam' + 'spamspam'
+
+    'spam' * 3
+
+     The two terms contains the same value that is 'spamspamspam'
+
+8. Eggs is a valid variable but 100 is invalid variable because the variable should start with upper case or lower case alphabets and underscore(_) 
+     but not start with integers or any special characters.
+     int() is used to get integer, float() is used to get floating-point number, str() is used to get string
+     string and integer can't concatenate. string only concatenate with string and integer will only concatenate with integer.
+
+9. The int() is used for integer.
+     The float() is used for floating point number.
+     The str() is used for string.
+
+10. 'I have eaten' + 99 + 'burritos'
+       The above expression has an error because the string and integer can't do concatenation operation or it can't perform arthimetic operation. 
+       To fix this error we have to convert the data type. By converting the integer data type to string data type using str() or by enclosing in double quotes we can fix.
+       'I have eaten' + str(99) + 'burritos'
+
